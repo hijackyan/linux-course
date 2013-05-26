@@ -3,7 +3,7 @@
 #Judge the argument number
 if [ $# != 1 ] 
 then
-	echo "Wrong format! Example:[ ./spider.sh www.sohu.com]"
+	echo "Wrong format! Example:[ ./spider.sh www.baidu.com]"
 	exit 1
 fi
 #Get the email address using wget and grep
